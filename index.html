@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Simple Quiz</h3>
+        <hr>
+        <div class="content" id="content">
+            <div class="question active" id="question1">
+                <label for="">1. What is the largest desert in the world? </label>
+                <br>
+                <option value="Kalahari"  >Kalahari</option>
+                <option value="Gobi"  >Gobi</option>
+                <option value="Sahara"  >Sahara</option>
+                <option value="Antarctica"  >Antarctica</option>
+                
+            <!-- <input type="button" value="Next" id="next"> -->
+            </div>
+
+            <div class="question" id="question2">
+                <label for="">2. What is the smallest country in the world? </label>
+                <br>
+                <option value="Vatican City">Vatican City</option>
+                <option value="Bhutan">Bhutan</option>
+                <option value="Nepal">Nepal</option>
+                <option value="Shri Lanka">Shri Lanka</option>
+                
+            <!-- <input type="button" value="Next" id="next"> -->
+            </div>
+
+            <div class="question" id="question3">
+                <label for="">3. What is the largest animal in the world? </label>
+                <br>
+                <option value="Shark">Shark</option>
+                <option value="Blue whale">Blue whale</option>
+                <option value="Elephant">Elephant</option>
+                <option value="Giraffe">Giraffe</option>
+            </div>   
+            <!-- <input type="button" value="Next" id="next"> -->
+
+            <div class="question" id="question4">
+                <label for="">4. What is the smallest continent in the world? </label>
+                <br>
+                <option value="Asia">Asia</option>
+                <option value="Australia">Australia</option>
+                <option value="Arctic">Arctic</option>
+                <option value="Africa">Africa</option>
+            </div>   
+            <!-- <input type="button" value="Next" id="next"> -->
+
+
+            <input type="button" value="Next" id="next">
+            
+        </div>
+
+        <div class="score" id="score">
+            <p id="scoreNo" class="scoreNo"></p>
+            <input type="button" value="Play Again" onclick="location.reload()" id="playAgain">
+        </div>
+
+        
+
+    </div>
+
+
+    
+
+    <script src="script.js "></script>
+</body>
+
+</html>
